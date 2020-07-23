@@ -1,0 +1,40 @@
+.cabecalho{
+    // height: 10px;
+    border-bottom: none;
+}
+
+.user{
+    display: inline-block;
+    align-content: center;
+    justify-items: center;
+}
+
+.user-info{
+    display: flex;
+}
+
+.user-name{
+    float: right;
+}
+
+
+.logo-bemol{
+    width: 277px;
+    height: 153px;
+    background: url(/assets/img/logo-bemol.png);
+    display: flex;
+    position: absolute;
+    left: 35%;
+    margin-left: -25px;
+}
+
+.container-botoes{
+    position: absolute;
+    left: 35%;
+    margin-left: -25%;
+    top: 170px;
+}
+
+.container-botoes ion-button ion-text{
+    font-size: 10px;
+}

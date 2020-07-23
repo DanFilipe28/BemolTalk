@@ -1,0 +1,34 @@
+<ion-header class="cabecalho">
+  <ion-toolbar class="user">
+    <ion-icon name="person" size="large" style="float: right;"></ion-icon>
+    <div class="user-info">
+      <ion-title class="user-name">Seu Nome</ion-title>
+      <ion-buttons slot="end">
+        <ion-button (click)="sair()" class="texto">
+          <ion-icon name="arrow-back"></ion-icon> Sair
+        </ion-button>
+      </ion-buttons>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="display: flex; align-items: center; justify-content: center;">
+  <div class="logo-bemol"></div>
+
+  <div class="container-botoes">
+    <ion-button color="light"(click)="chat()" style="width: 200px; height: 150px;">
+      <ion-icon name="chatbubbles"></ion-icon>
+      <p><ion-text> Chat</ion-text></p>
+    </ion-button>
+
+    <ion-button color="light" (click)="servico()"style="width: 200px; height: 150px;">
+      <ion-icon name="receipt"></ion-icon> &#013;
+      <p><ion-text> produtos</ion-text></p>
+    </ion-button>
+
+    <ion-button color="light" (click)="faq()"style="width: 200px; height: 150px;">
+      <ion-icon name="book"></ion-icon> &#013;
+      <p><ion-text> FAQ</ion-text></p>
+    </ion-button>
+  </div>
+</ion-content>

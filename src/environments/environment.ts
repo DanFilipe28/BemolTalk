@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:{
+    apiKey: "AIzaSyBZeRMkFQkwIKnlMNLJtl4Mkn0WoZkQsGM",
+    authDomain: "bemoltalk-90d34.firebaseapp.com",
+    databaseURL: "https://bemoltalk-90d34.firebaseio.com",
+    projectId: "bemoltalk-90d34",
+    storageBucket: "bemoltalk-90d34.appspot.com",
+    messagingSenderId: "127535811471",
+    appId: "1:127535811471:web:e681f836a43f06a8b0d9fa"
+  }
 };
 
 /*

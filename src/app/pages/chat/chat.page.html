@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+	<ion-toolbar class="titulo">
+		<ion-title class="texto">
+			Chat
+		</ion-title>
+		<ion-buttons slot="end">
+			<ion-button (click)="voltar()" class="texto">
+				<ion-icon name="arrow-back"></ion-icon> Voltar
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+<ion-content>
+	<div id="main">
+		<ion-list style="background: transparent;">
+			<ion-item *ngFor="let item of lista" color="none" lines="none" class="texto">
+				<p>{{item.texto}}</p>
+				<ion-note item-right class="texto">
+					{{item.data | date:'HH:mm'}}
+				</ion-note>
+			</ion-item>
+		</ion-list>
+	</div>
+</ion-content>
+
+<ion-footer>
+	<ion-toolbar>
+		<ion-item>
+			<ion-input type="text" [(ngModel)]="mensagem" placeholder="Mensagem"></ion-input>
+			<ion-button (click)="enviar()">Enviar <ion-icon name="arrow-redo"></ion-icon></ion-button>
+		</ion-item>
+	</ion-toolbar>
+</ion-footer>

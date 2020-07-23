@@ -1,0 +1,16 @@
+1- A solução foi disponibilizada em cloud , pois no decorreer do desenvolvimento 
+percebi que era preciso utilizar o firebase certas funções. Não era necessario uma infrastutura local para essa aplicação.
+
+
+2- Trello, e sim é uma ferramenta agil para esse tipo de equipe e bomo para desenvolvimento de projetos.
+
+
+3- Sim, imaginando esse cenário , consigo determinar o que é prioridade e o que não é , me baseando no tempo que foi dado para concluir o projeto.
+
+
+4- Melhoria, o desenvolvimento desse projeto foi muito basico nas suas funções , mas tem capacidade de melhorar bastante por que tem
+funções que podem ser integradas com site ofical da empresa.
+
+5- Em partes, gostei muito pois aprendi muita coisa para esse projeto mas em contra ponto ficou em algumas coisas 
+ambiguas para entender o que queriam de verdade , mas tirando isso , o desafio cumpriu seu objetivo de desafiar o participante 
+a sair da sua zona de conforto.  

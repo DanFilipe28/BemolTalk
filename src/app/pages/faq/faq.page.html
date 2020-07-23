@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>FAQ</ion-title>
+    <ion-buttons slot="end">
+			<ion-button (click)="voltar()" class="texto">
+				<ion-icon name="arrow-back"></ion-icon> Voltar
+			</ion-button>
+		</ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+	<ion-virtual-scroll [items]="faq" approxItemHeight="320px">
+		<ion-card *virtualItem="let f; let itemBounds = bounds;">
+			<ion-card-header>
+				<ion-card-title>{{ f.pergunta }}</ion-card-title>
+			</ion-card-header>
+			<ion-card-content>{{ f.resposta }}</ion-card-content>
+		</ion-card>
+	</ion-virtual-scroll>
+</ion-content>
